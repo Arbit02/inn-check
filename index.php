@@ -27,7 +27,3 @@ function GetContent($inn)
         return 0;
     }
 }
-
-$inn = '780204893183';
-$result = GetContent($inn);
-echo $result;
